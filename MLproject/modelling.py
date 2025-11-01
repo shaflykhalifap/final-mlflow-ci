@@ -40,3 +40,4 @@ if __name__ == "__main__":
         # Log metrics
         accuracy = model.score(X_test, y_test)
         mlflow.log_metric("accuracy", accuracy)
+#Testing-CI
